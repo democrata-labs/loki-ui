@@ -1,4 +1,10 @@
-# @democrata-labs/shadcn
+# @democrata-labs/ditto-ui
+
+## Henrique Notes to Publish
+cd packages/shadcn
+change github_token at .npmrc
+npm run build
+pnpm publish --no-git-checks
 
 A CLI for adding components to your project.
 
